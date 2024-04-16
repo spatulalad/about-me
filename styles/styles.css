@@ -1,0 +1,48 @@
+h1 {
+    text-shadow: 3px 3px 0 purple,
+    6px 6px 0 blue;
+    font-size: 75px;
+    font-family: Algerian, serif;
+}
+
+.facts-list {
+    list-style-type: disc;
+    text-align: center;
+    font-size: 30px;
+    font-family: Algerian, serif;
+}
+
+.center_list {
+    width: 500%;
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    font-family: Algerian, serif;
+}
+
+.childhood{
+    font-size: 30px;
+    font-family: Algerian, serif;
+}
+
+.fun-facts{
+    font-size: 30px;
+    font-family: Algerian, serif;
+}
+
+.fit-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border: 5px solid purple;
+    animation: spin 8s infinite linear;
+    }
+    @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+        to {
+            transform: rotate(360deg);
+        }
+    }
