@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="44af23a8-86c5-4034-8e6a-f6a81bc68359" name="Shared bootcamp server (project level)" url="https://ddc-web-student.cnm.edu/~mathey/about-me/">
-        <fileTransfer rootFolder="/home/mathey/public_html/about-me" accessType="SFTP" sshConfigId="4fcd7180-d01d-4eef-b63e-39b6860e2b11" sshConfig="mathey@ddc-web-student.cnm.edu:22 agent">
+      <webServer id="96343f76-4763-4425-bbd1-fb77879e9eae" name="about me" url="https://ddc-web-student.cnm.edu/~mathey/about-me/">
+        <fileTransfer rootFolder="/home/mathey/public_html/about-me" accessType="SFTP" host="ddc-web-student.cnm.edu" port="22" sshConfigId="4fcd7180-d01d-4eef-b63e-39b6860e2b11" sshConfig="mathey@ddc-web-student.cnm.edu:22 agent" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
